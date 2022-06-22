@@ -21,6 +21,7 @@ Strings
         
    slicing one character in the middle of string 
    Negative Indexing 
+          -------this will start the index from the right
       given word 
       print([-#(length of string): -#(position of number + 1])
       
