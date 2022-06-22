@@ -1,0 +1,42 @@
+Strings
+  len() - length of string - simmilar to .length
+  checking if words are in strings - print(" " in text) 
+    ex print ("words" in text) 
+      this is simmilar to for each in java
+    using not - dont use ! 
+    
+    check if something is not in text - print("" is not in text) 
+    
+  slicing strings --- simmilar to .substring
+  print (var[#:#])
+  this will print the variable text and the index of numbers desired to be returned 
+    ex s = hello world
+    print(s[1:3]) ---- this will print el.  -> the last index is not included (ALWAYS)
+  --slice from start bc you cant start from 0
+        print([:#]
+        ex---- v = hippo
+          print(:4])----- this will return hipp
+   ---slicing to the end will be simmilar to start
+        print([#:])
+        
+   slicing one character in the middle of string 
+   Negative Indexing 
+      given word 
+      print([-#(length of string): -#(position of number + 1])
+      
+      
+ modifying strings 
+  upper()
+ you will include your variable name with a dot 
+ print var.upper()
+ ---ex b = happy
+      print b.upper()
+  lower()
+    print var.lower()
+    
+  removing whitespace (extra space before or after text that is not needed)
+    strip()
+   print var.strip()
+      
+   
+    
