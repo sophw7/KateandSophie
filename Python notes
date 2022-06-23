@@ -49,5 +49,68 @@ Strings
 out of range error means that the index is too large for the acutal string
 
 
+LECTURE NOTES
+----------------
+- single quotes cannot be used if there is an apostrophe
+- lists
+--------[0,0,0,0]
+--------can have multiple types [50,"hello"] <- cannot sum everything in list
+
+-loops
+----for var in list():
+-------print()
+
+
+var = #
+for somenum in my_list:
+  sum = sum + somenum
+- lists can have multiple types 
+- cannot add lists together of different types 
+
+- functions 
+----  def somelist()
+- def will define the function 
+-sum list ([3,4,5])
+
+
+def sum_a_list(list)
+ sum = 0
+ for number in list:
+  sum = sum + sum_num
+return sum
+
+
+  if you want all sums to be printed you need to store values 
+  store1= sum_a_list([list])
+  store2 = sum_a_list([list2])
+  print(store1)
+  print(store2)
+  
+  
+  input 
+  name = input("Please enter your name: "
+  print(name)
+  
+  number_in = int(input())
+  
+  
+  conditionals 
+  user_age = int(input())
+  if user_age >= 25:
+    print("You can rent a car affordably")
+elif user_age < 25 and user_age >= 21:
+  print("You can print a car, but its expensive")
+else:
+  print("You may not be able to rent!")
+  
+word = input()
+if word.lower() < "mudkip":
+  print("It comes after mudkip in the dictionary")
+else: 
+  print("It comes before")
+uppercase or lowercase 
+
+
+
 
     
